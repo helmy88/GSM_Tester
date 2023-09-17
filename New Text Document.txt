@@ -1,0 +1,28 @@
+Arduino GSM Module Test
+
+Description:
+This project demonstrates how to test the GSM condition using an Arduino and a SIM800L GSM module. It establishes communication with the module and prints the response to the Arduino IDE Serial Monitor.
+
+Hardware Requirements:
+1. Arduino board (e.g., Arduino Uno)
+2. SIM800L GSM module
+3. Active GSM SIM card with a compatible subscription
+4. Jumper wires for connections
+
+Connections:
+- Connect the TX pin of the SIM800L module to Arduino's digital pin 7 (sim800lTxPin).
+- Connect the RX pin of the SIM800L module to Arduino's digital pin 8 (sim800lRxPin).
+- Power the SIM800L module using an external power supply.
+
+Instructions:
+1. Upload the provided Arduino sketch to your Arduino board using the Arduino IDE.
+2. Open the Arduino IDE Serial Monitor to monitor the SIM800L module's responses.
+3. The module will initialize, and you will see the response in the Serial Monitor.
+4. The GSM condition can be checked by observing the responses from the module.
+
+Note:
+- Ensure you have a working SIM card with an active GSM subscription inserted into the SIM800L module.
+- Make sure to provide an external power supply to the SIM800L module if it requires one.
+
+Author: [Your Name]
+Date: [Date Created]
